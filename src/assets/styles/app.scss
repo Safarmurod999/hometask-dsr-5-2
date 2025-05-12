@@ -1,0 +1,22 @@
+@use "./base/variables";
+@use "./base/base";
+@use "./base/mixins";
+
+// components
+@use "./components/button";
+@use "./components/table";
+
+@use "./components/breadcrumb";
+@use "./components/form";
+@use "./components/pagination";
+@use "./components/modal";
+
+// layout
+@use "./layout/layout";
+@use "./layout/admin-layout";
+@use "./layout/admin-navbar";
+@use "./layout/sidebar";
+
+//pages
+@use "./pages/projects";
+@use "./pages/notfound";
